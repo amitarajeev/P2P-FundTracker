@@ -1,0 +1,195 @@
+body{
+  background-color: #282c34;
+  text-align: center;
+  color: white;
+}
+.App {
+  text-align: center;
+  color: white;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #3c6ac7;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+h1{
+  justify-content: baseline;
+  margin: 6% 0 5% 0;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.Login-Image{
+  display: flex;
+  flex-direction: row;
+  max-width: 97%;
+  padding-top: 2%;
+}
+
+.Login-Container{
+  text-align: center;
+  background-color: #282c34;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-evenly;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Login-Card{
+  background-color: rgb(236, 255, 249);
+  color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5%;
+  border-radius: 4% 4% 2% 2%;
+}
+
+.Login-Card:hover .Login-Image{
+  -webkit-filter: drop-shadow(0 0 2px black);
+  filter: drop-shadow(0 0 4px black);
+}
+
+.Login-Card:hover, .Option-Button:hover{
+  background-color: rgb(241, 213, 178);
+  font-weight:normal; 
+  text-shadow: 1px 1px;
+}
+
+a:link{
+  text-decoration: none;
+}
+.Option-Container{
+  text-align: center;
+  background-color:#282c34;
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin: auto;
+  padding-top: 5%;
+}
+
+.Option-Button{
+  background-color:rgb(236, 255, 249);
+  color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius:7%;
+  padding: 10% 50% 0% 50%;
+  width: 100px;
+  white-space: nowrap;
+  margin: 0%;
+  text-overflow: ellipsis;
+}
+.Option-Image{
+  display: flex;
+  flex-direction: row;
+  padding-top: 5%;
+  max-width: 80%;
+}
+
+.Option-Icon{
+  display: flex;
+  justify-content: center;
+  padding: 20% 50% 0% 50%;
+  color: black;
+}
+
+.Option-Button:hover .Option-Icon{
+  -webkit-filter: drop-shadow(0 0 2px grey);
+  filter: drop-shadow(0 0 4px grey);
+}
+.txn-data{
+  margin-top: 5%;
+}
+.txn-box{
+  display: flex;
+  max-width: inherit;
+  justify-content: center;
+  border-top: #fff solid 1px;
+}
+.TX{
+  background-color: white;
+  border-radius: 50%;
+  text-align: center;
+  color: #000;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  padding: 10px;;
+}
+.Tid{
+  margin: 3%;
+}
+.transfer{
+  text-align: left;
+  margin-right: 3%;
+}
+.vendor-header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7%;
+}
+.select-container{
+  overflow-y: scroll;
+}
+.select-box{
+  display: flex;
+  max-width: inherit;
+  justify-content: center;
+  margin: 1%;
+}
+.select-checkbox{
+  display: flex;
+  text-align: left;
+}
+.avatar{
+  max-width: 70px;
+  max-height: 70px;
+}
+button, .donate{
+  padding: 1% 4%;
+  background-color: rgb(154, 221, 200);
+  font-size: 20px;
+}
+.redeem{
+  margin-left: 8%;
+  margin-top: 0;
+}
+.pay-form{
+  text-align: left;
+  font-size: 25px;
+  justify-content: center;
+  margin-left: 45%;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
